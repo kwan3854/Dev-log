@@ -197,18 +197,18 @@ enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };
 ```c
 struct proc
 {
-  char *mem;										// 프로세스 메모리 시작주소
-  uint sz;											// 프로세스 메모리의 크기
-  char *kstack;									// 이 프로세스의 커널 스택의 바닥 구조
-  enum proc_state state;				// 프로세스 상태
-  int pid;											// 프로세스 ID
-  struct proc *parent;					// 부모 프로세스
-  void *chan;										// 0이 아니면, chan에서 수면
-  int killed;										// 0이 아니면 종료됨
+  char *mem;		// 프로세스 메모리 시작주소
+  uint sz;		// 프로세스 메모리의 크기
+  char *kstack;		// 이 프로세스의 커널 스택의 바닥 구조
+  enum proc_state state;		// 프로세스 상태
+  int pid;		// 프로세스 ID
+  struct proc *parent;		// 부모 프로세스
+  void *chan;		// 0이 아니면, chan에서 수면
+  int killed;		// 0이 아니면 종료됨
   struct file *ofile[NOFILE];		// 열린 파일
-  struct inode *cwd;						// 현재 디렉터리
-  struct context context;				// 프로세스를 실행시키려면 여기로 교환
-  struct trapframe *tf;					// 현재 인터럽트에 해당하는 트랩 프레임
+  struct inode *cwd;		// 현재 디렉터리
+  struct context context;		// 프로세스를 실행시키려면 여기로 교환
+  struct trapframe *tf;		// 현재 인터럽트에 해당하는 트랩 프레임
 };
 ```
 
