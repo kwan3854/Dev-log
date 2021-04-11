@@ -1,16 +1,15 @@
 # Operating System
 
-### 참고한 도서
+## 참고한 도서
 
 - Operating Systems Three Easy Pieces
-
 - Operating System Concepts (공룡책)
 
 ## Index
 
-- 개론
-- Processes
-- Limited Direct Execution
+- [개론](https://github.com/kwan3854/Dev-log/blob/master/Study/Operation_System/OS1-Introduction%20to%20Operating%20Systems.md)
+- [Processes](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS2-Process.md)
+- [Limited Direct Execution](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS3-Limited_Direct_Execution.md)
 - Scheduling
 - Scheduling (MLFQ)
 - Virtual Memory
