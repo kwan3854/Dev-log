@@ -10,7 +10,7 @@
 - [개론](https://github.com/kwan3854/Dev-log/blob/master/Study/Operation_System/OS1-Introduction%20to%20Operating%20Systems.md)
 - [Processes](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS2-Process.md)
 - [Limited Direct Execution](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS3-Limited_Direct_Execution.md)
-- Scheduling
+- [Scheduling](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS4-Scheduling.md)
 - Scheduling (MLFQ)
 - Virtual Memory
 - Segmentation
