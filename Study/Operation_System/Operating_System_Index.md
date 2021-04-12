@@ -11,7 +11,7 @@
 - [Processes](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS2-Process.md)
 - [Limited Direct Execution](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS3-Limited_Direct_Execution.md)
 - [Scheduling](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS4-Scheduling.md)
-- Scheduling (MLFQ)
+- [Scheduling (MLFQ)](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS4-Scheduling_MLFQ.md)
 - Virtual Memory
 - Segmentation
 - Free Space Management
