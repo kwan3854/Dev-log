@@ -13,7 +13,8 @@
 - [Scheduling](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS4-Scheduling.md)
 - [Scheduling MLFQ](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS5-Sheduling_MLFQ.md)
 - [Virtual Memory](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS6-Virtual_Memory.md)
-- Segmentation
-- Free Space Management
-- Paging
-
+- [Segmentation](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS7-Segmentation.md)
+- [Free Space Management](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS8-Free_Space_Management.md)
+- [Paging](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS9-Paging.md)
+- TLBs
+- Paging: Smaller Tables
