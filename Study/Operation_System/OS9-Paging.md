@@ -135,7 +135,7 @@ VPN 을 PFN 으로 교체하여 가상주소를 변환 할 수 있다.
 
 - **Virtual address: 32 bits**
 - **Physical address: 20bits**
-- **Page size: 4KB** (= 2^2 + 2^10 = 2^12 byte)
+- **Page size: 4KB** (= 2^2 * 2^10 = 2^12 byte)
 
 여기서, offset, VPN, page table entry, page table size 를 구해보자.
 
