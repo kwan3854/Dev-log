@@ -69,11 +69,26 @@ C++ 에서는 생성자를 ctor라고 부른다.
 
 **중복 코드를 방지하고 설계를 더 간결하게 만들기 때문에 유지보수성이 향상된다** 는 점이다.
 
+```java
+class Cash {
+  private int dollars;
+  Cash(float dlr) {
+    this((int)dlr);
+  }
+  Cash(String dlr) {
+    this(Cash.parse(dlr));
+  }
+  Cash(int dlr) {
+    this.dollars = dlr;
+  }
+}
+```
+
 ---
 
 메서드 오버로딩을 지원하지 않는 언어에서는?
 
-인자들을 map에 담아 전달하는 방법.
+인자들을 map에 담아 전달하는 방법 사용.
 
 ---
 
@@ -93,6 +108,42 @@ C++ 에서는 생성자를 ctor라고 부른다.
 
 인자에 손대지 말라!
 
+**잘못된 방법**
+
+```java
+class Cash {
+  private int dollars;
+  Cash(String dlr) {
+    this.dollars = Integer.parseInt(dlr);
+  }
+}
+```
+
+객체 초기화에는 코드가 없어야 하고 인자를 건드려서는 안된다.
+
+**옳은 방법**
+
+```java
+class Cash {
+  private Number dollars;
+  Cash(String dlr) { // 부 ctor
+    this(new StringAsInteger(dlr));
+  }
+  Cash(Number dlr) { // 주 ctor
+    this.dollars = dlr;
+  }
+}
+class StringAsInteger implements Number {
+  private String source;
+  StringAsInteger(String src) {
+    this.source = src;
+  }
+  int intValue() {
+    return Integer.parseInt(this.source);
+  }
+}
+```
+
 ---
 
 진정한 객체지향에서 인스턴스화란 더 작은 객체들을 조합해서 더 큰 객체를 만드는 것을 의미
@@ -101,7 +152,7 @@ C++ 에서는 생성자를 ctor라고 부른다.
 
 ---
 
-성능관점
+**성능관점**
 
 만약 객체가 생성될때마다 ctor에서 바로 파싱이되면 최적화 못함
 
@@ -199,6 +250,22 @@ class Year {
 
 무언가는 캡슐화 해야한다.
 
+완벽한 객체지향 설계를 적용하면 다음과 같다.
+
+```java
+class Year {
+  private Number num;
+  Year(final Millis msec) {
+    this.num = msec.div(
+    1000.mul(60).mul(60).mul(24).mul(30).mul(12)
+    ).min(1970);
+  }
+  int read() {
+    return this.num.intvalue();
+  }
+}
+```
+
 ---
 
 ## 2.3 항상 인터페이스를 사용하세요
@@ -239,6 +306,10 @@ class Employee {
 ```
 
 Employee 클래스는 Cash 인터페이스의 구현 방법에 아무런 관심이 없다.
+
+Cash 인터페이스를 이용하면 Employee 클래스와 DefaultCash 클래스를 느슨하게 분리할 수 있다는 의미이다.
+
+DefaultCash의 내부 구현을 변경하거나 심지어 Cash 인터페이스의 구현체를 다른 것으로 교체하더라도 Employee에는 아무 영향이 없다.
 
 ---
 
