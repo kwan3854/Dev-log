@@ -17,5 +17,6 @@
 - [Free Space Management](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS8-Free_Space_Management.md)
 - [Paging](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS9-Paging.md)
 - [TLBs](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS10-TLBs.md)
+- [Paging: Smaller Tables](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS11-Paging_Smaller_Tables.md)
 - [CFS](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS11_1-CFS.md)
-- Paging: Smaller Tables
+
