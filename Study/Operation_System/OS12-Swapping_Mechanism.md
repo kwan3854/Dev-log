@@ -91,7 +91,7 @@ TLB 미스의 처리 방법에 따라, 두 종류의 시스템이 있었다.
 
 **페이지 오류 제어 흐름의 알고리즘(하드웨어)**
 
-```c
+```pseudocode
 VPN = (VirtualAddress & VPN_MASK) >> SHIFT
 (Success, TlbEntry) = TLB_Lookup(VPN)
 if (Success == True)	// TLB 히트
@@ -133,7 +133,7 @@ else
 
 **페이지 오류 제어 흐름의 알고리즘(소프트웨어)**
 
-```c
+```pseudocode
 PFN = FindFreePhysicalPage()
   if (PFN == -1)		// 비어있는 페이지 못 찾음
     PFN = EvictPage()		// 교체 알고리즘 실행
