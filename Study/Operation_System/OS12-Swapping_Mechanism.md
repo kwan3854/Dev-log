@@ -107,14 +107,14 @@ else
 	if (PTE.Valid == False) // 프로그램 버그 등으로 잘못된 주소를 접근하는 경우
 		RaiseException(SEGMENTATION_FAULT)
 	else
-    if (CanAccess(PTE.ProtectBits) == False)
-    	RaiseException(PROTECTION_FAULT)
-    else if (PTE.Present == True) // 페이지가 존재하며 유효한 경우
+		if (CanAccess(PTE.ProtectBits) == False)
+			RaiseException(PROTECTION_FAULT)
+		else if (PTE.Present == True) // 페이지가 존재하며 유효한 경우
 			// 하드웨어를 기반으로 한 TLB를 가정함
-    	TLB_INSERT(VPN, PTE.PFN, PTE.ProtectBits)
-    	RetryInstruction()
-   	else if (PTE.Present == False) // 페이지가 유효하지만 존재하지 않는 경우
-    	RaiseException(Page_Fault)
+			TLB_INSERT(VPN, PTE.PFN, PTE.ProtectBits)
+			RetryInstruction()
+		else if (PTE.Present == False) // 페이지가 유효하지만 존재하지 않는 경우
+			RaiseException(Page_Fault)
 ```
 
 1. **(18-21 라인) 페이지가 존재하며 유효한 경우**
