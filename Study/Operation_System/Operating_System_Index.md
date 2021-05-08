@@ -20,4 +20,5 @@
 - [Paging: Smaller Tables](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS11-Paging_Smaller_Tables.md)
 - [CFS](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS11_1-CFS.md)
 - [Swapping Mechanism](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS12-Swapping_Mechanism.md)
-- [Swapping Policy](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS12-Swapping_Policy.md)
+- [Swapping Policy](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS13-Swapping_Policy.md)
+- [Threads-Concurrency](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS14-Threads.md)
