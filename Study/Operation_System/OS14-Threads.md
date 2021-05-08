@@ -45,7 +45,7 @@
 한 쓰레드는 "A"라고 출력하고 다른 쓰레드는 "B"라고 출력하는 독립적인 두 개의 쓰레드를 생성하는 프로그램을 실행시킨다고 해 보자.
 
 ```c
-#inlcude <stdio.h>
+#include <stdio.h>
 #include <assert.h>
 #include <pthread.h>
 #include "common.h"
