@@ -22,3 +22,4 @@
 - [Swapping Mechanism](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS12-Swapping_Mechanism.md)
 - [Swapping Policy](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS13-Swapping_Policy.md)
 - [Threads-Concurrency](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS14-Threads.md)
+- [Locks](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS15-Locks.md)
