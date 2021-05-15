@@ -7,11 +7,6 @@
 
 ## Index
 
-- 개론
-- C++ Basics
-- Arrays
-- Flow Control
-- Function Basics
-- Parameters and Overloading
-- Sturctures and Classes
+- [Constructor](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Constructor.md)
+- [Operator Overloading](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Operator_Overloading.md)
 
