@@ -1,0 +1,44 @@
+# Condition variable 에 대해
+
+OSTEP 교제에서 POSIX 의 condition variable 의 동작을 가르치는데,
+
+당연하다는 듯 너무나 복잡하고 난해한 방법을 **반드시** 사용해야 한다고 가르치는데
+
+계속 무언가가 잘못되었다는 느낌을 지울 수 없었다.
+
+1. wait 함수는 이름과 다르게, wait 만 하지 않는다.
+
+   즉 함수의 이름이 wait and unlock, and relock when its return 이렇게 해야 맞다.
+
+   이렇게 이름을 바꾸면 뭔가 잘못되었다는것이 확 와 닿는다.
+
+   - 하나의 함수가 이렇게 복합적인 일을 해도 되는가?
+   - 과연 wait 이라는 이름만 보고 저 동작들을 유추해 낼 수 있는가?
+   - 저것 때문에 코딩의 형태가 너무 강요되는것 아닌가?
+
+2. 위 이유 때문에 결국, 조건 확인 시 if 문 대신 while 문이 강요된다.
+
+3. 이 문제를 나만 느낀 게 아니었다.
+
+   Mesa sementic, Hoare semantic
+
+   https://youtu.be/5R9u16q4IcI 현업자의 의견
+
+---
+
+OSTEP 교제에서는 대부분의 시스템에서 Mesa sementic 을 사용하고, Hoare semantic 은 구현이 어렵다고 설명한다.
+
+위 영상의 현업자의 말을 들어보면 아마 Windows 에서는 Hoare semantic 을 사용하는 듯 하다.
+
+Windows 에서의 구현을 한번 보고, 왜 POSIX 는 Mesa sementic 을 고집하는지 알아봐야겠다.
+
+Mesa sementic 은 개발자들의 실수를 유도하고, 직관적으로 코드를 이해하는것을 저해한다고 생각한다.
+
+---
+
+후에 이에 대해 알아보고 글을 추가하겠다.
+
+-2021.05.16-
+
+---
+
