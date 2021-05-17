@@ -11,8 +11,8 @@
 - [Object-Oriented Programming](https://github.com/kwan3854/Dev-log/blob/master/Study/OOP/OOP-Index.md)
 
 ## Thoughts
-- [About condition variables](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/about_condition_variable.md)
-- [STL is not magic](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/STL_is_not_magic.md)
+- [About condition variables and spurious wakeup](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/about_condition_variable.md)
+- [STL not 'just works'](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/STL_is_not_magic.md)
 
 ## Projects Dev-log
 
