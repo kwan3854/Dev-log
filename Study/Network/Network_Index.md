@@ -12,4 +12,4 @@
 - [Link Layer](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW3-Link_Layer.md)
 - [IP](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW4-IP.md)
 - [Network Layer](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW5-Network_Layer.md)
-
+- [Routing Algorithms](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW6-Routing_Algorithms.md)
