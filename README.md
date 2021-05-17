@@ -12,7 +12,7 @@
 
 ## Thoughts
 - [About condition variables and spurious wakeup](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/about_condition_variable.md)
-- [STL not 'just works'](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/STL_is_not_magic.md)
+- [STL doesn't 'just works'](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/STL_is_not_magic.md)
 
 ## Projects Dev-log
 
