@@ -86,7 +86,7 @@ POSIX.1-2017 treatment of `pthread_cond_broadcast` and `pthread_cond_signal`
 
 그러나 아직 의문이 하나 남았다.
 
-그렇다면 **과연 마이크로소프트는 Windows 에서 어떻게 이 문제를 해결했고, 큰 성능 저하 없이 이를 해 냈을까?**
+그렇다면 **과연 마이크로소프트는 Windows 에서 어떻게 이 문제를 해결했고, 정말 큰 성능 저하 없이 이를 해 냈을까?**
 
 -2021.05.18-
 
