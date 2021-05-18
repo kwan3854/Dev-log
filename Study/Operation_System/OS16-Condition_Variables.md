@@ -386,7 +386,7 @@ void *producer(void *arg) {
   for (i = 0; i < loops; i++) {
     Ptrhead_mutex_lock(&mutex);           // p1
     if (count == 1)                       // p2
-      Pthread_cond_signal(&cond, &mutex); // p3
+      Pthread_cond_wait(&cond, &mutex);   // p3
     put(i);                               // p4
     Pthread_cond_signal(&cond);           // p5
     Pthread_mutex_unlock(&mutex);         // p6
@@ -596,7 +596,7 @@ void *producer(void *arg) {
   for (i = 0; i < loops; i++) {
     Ptrhead_mutex_lock(&mutex);
     while (count == 1)
-      Pthread_cond_signal(&empty, &mutex);
+      Pthread_cond_wait(&empty, &mutex);
     put(i);
     Pthread_cond_signal(&fill);
     Pthread_mutex_unlock(&mutex);
@@ -672,7 +672,7 @@ void *producer(void *arg) {
   for (i = 0; i < loops; i++) {
     Ptrhead_mutex_lock(&mutex);                 // p1
     while (count == MAX) // 이 부분이 변경 되었다    // p2
-      Pthread_cond_signal(&empty, &mutex);      // p3
+      Pthread_cond_wait(&empty, &mutex);        // p3
     put(i);                                     // p4
     Pthread_cond_signal(&fill);                 // p5
     Pthread_mutex_unlock(&mutex);               // p6
