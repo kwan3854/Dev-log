@@ -92,3 +92,17 @@ POSIX.1-2017 treatment of `pthread_cond_broadcast` and `pthread_cond_signal`
 
 ---
 
+stackoverflow 에 이 질문을 올렸었는데, 여기서 이와 관련한 유익한 답변을 들을 수 있었다.
+
+> I'd note, too, that [Win32 event objects](https://docs.microsoft.com/en-us/windows/win32/sync/event-objects) *contain their own predicate*, viz., the "state" that is either "signaled" or "nonsignaled." You could easily, POSIXly construct your own `struct my_event` (with a condvar, mutex, and flag) and a `my_event_timedwait(struct my_event *, struct timespec *timeout)` which hides the predicate-testing-loop and is thus suitable for use in an `if` conditional. – [pilcrow](https://stackoverflow.com/users/132382/pilcrow)
+
+요컨데, **Win32의 event objects 도 내부적으로 같은 구현을 갖고 있고,** POSIX 에서도 event objects 처럼 if 문만 해도 spurious wakeup 문제 없이 잘 동작하는 custom event 를 만들 수 있다는 것이다.
+
+이제 드는 의문은 왜 POSIX 는 event objects 처럼 난해한 구현을 뒤로 숨기지 않고 프로그래머에게 이것을 넘기는 형태로 만들었냐는 것이다.
+
+오직 디자인 철학의 문제였을까?
+
+-2021.05.18-
+
+---
+
