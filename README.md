@@ -13,7 +13,7 @@
 ## Thoughts
 - [About condition variables and spurious wakeup](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/about_condition_variable.md)
 - [STL doesn't 'just works'](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/STL_is_not_magic.md)
-- [Is there any point of "reference of pointer"?](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/Is_there_any_point_of_reference_of_pointer.md)
+- [Is there any point of "reference of pointer"? (pointer vs reference)](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/Is_there_any_point_of_reference_of_pointer.md)
 - [How swarm works](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/How_swarm_works.md)
 
 ## Projects Dev-log
