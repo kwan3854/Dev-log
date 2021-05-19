@@ -78,3 +78,51 @@ for(auto pFigure : vFigureList)
 
 ---
 
+이렇게 생각하면 된다.
+
+참조는 포인터와 사실상 똑같다. (어셈블리 레벨로 내려가면)
+
+즉, 포인터의 참조 *& 는 사실상 이중포인터 ** 와 같은 것이다.
+
+optimization 없이 컴파일 되었을 때
+
+- Direct access uses three assembly instructions
+- One level of indirection (pointers and references) uses five instructions
+- Two levels of indirection (reference to pointer and pointer to pointer) uses seven instructions
+
+```c++
+int num();
+int* num_ptr();
+
+int main() {
+    int i = num();
+    
+    int& r = i;
+    int* p = num_ptr();
+
+    int*& pr = p;
+    int** pp = &p;
+
+    // Direct access
+    i += 3;
+
+    // One level of indirection
+    r += 5;   
+    *p += 7;
+
+    // Two levels of indirection
+    *pr += 11;
+    **pp += 13;
+
+    return 0;
+}
+```
+
+https://godbolt.org/z/h3WzdPWa1
+
+위 링크에서 각 라인의 코드가 실제로 어셈블리로 변환 된 결과를 볼 수 있다.
+
+-2021.05.19-
+
+---
+
