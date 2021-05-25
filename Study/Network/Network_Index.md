@@ -15,4 +15,5 @@
 - [Routing Algorithms](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW6-Routing_Algorithms.md)
 - [Transport Layer](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW7-Transport_Layer.md)
 - [Transport Layer: GBN & Selective Repeat](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW8-Transport_Layer_GBN_and_Selective_Repeat.md)
-- [Transport Layer : TCP](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW9-Transport_Layer_TCP.md)
+- [Transport Layer : TCP: segment structure](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW9-Transport_Layer_TCP.md)
+- [Transport Layer : TCP: reliable data transfer, flow control, connection management](https://github.com/kwan3854/Dev-log/tree/master/Study/Network/NW10-Transport_Layer_TCP_2.md)
