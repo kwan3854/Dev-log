@@ -14,6 +14,6 @@
 - [Requirements Analysis](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng4-Requirements_Analysis.md)
 - [Requirements Modeling](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng5-Requirements_Modeling.md)
 - [Design_Principles](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng6-Design_Principles.md)
+- [Architecture Design](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng7-Architecture_Design.md)
 - Python Tetris 코드
 - 코딩지침
-
