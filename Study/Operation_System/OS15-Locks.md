@@ -54,6 +54,19 @@ lock() 루틴 호출을 통해 락 획득을 시도한다.
 
 락을 통해 프로세스들의 혼란스런 실행 순서에 어느 정도의 질서를 부여할 수 있다.
 
+---
+
+### 락 구현시 필요요건
+
+- **Correctness**
+  - **Mutual exclusion:** 한번에 하나의 쓰레드만 critical section 에 들어갈 수 있다.
+  - **Progress (deadlock-free):** 만약 여러 쓰레드가 critical section 에 들어가고 싶어하면 반드시 하나는 들어가게 해줘야 한다.
+  - **Bounded waiting (starvation-free):** 각각의 대기중인 쓰레드는 결국에는 들어가게 해 줘야 한다.
+- **Fairness**
+  - 각각의 쓰레드는 lock 을 얻는데 fair 한 기회를 가진다.
+- **Performance**
+  - 경쟁이 있을 때와 없을 때의 락의 time overhead 를 고려해야 한다.
+
 ## 2. Pthread 락
 
 쓰레드 간에 **상호 배제(mutual exclusion)** 기능을 제공하기 때문에 POSIX 라이브러리는 락을 **mutex** 라고 부른다.
