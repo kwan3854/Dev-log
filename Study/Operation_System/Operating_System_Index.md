@@ -27,3 +27,4 @@
 - [Semaphore](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS17-Semaphore.md)
 - [File Systems - file and directory](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS18-File_Systems_file_and_directory.md)
 - [File Systems - Implementation](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS19-File_System_Implementation.md)
+- [File Systems -Locality and The Fast File System](https://github.com/kwan3854/Dev-log/tree/master/Study/Operation_System/OS20-Locality_and_The_Fast_File_System.md)
