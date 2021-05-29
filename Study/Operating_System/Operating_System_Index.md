@@ -7,7 +7,7 @@
 
 ## Index
 
-- [개론](https://github.com/kwan3854/Dev-log/blob/master/Study/Operatng_System/OS1-Introduction_to_Operating_Systems.md)
+- [개론](https://github.com/kwan3854/Dev-log/blob/master/Study/Operating_System/OS1-Introduction_to_Operating_Systems.md)
 - [Processes](https://github.com/kwan3854/Dev-log/tree/master/Study/Operatng_System/OS2-Process.md)
 - [Limited Direct Execution](https://github.com/kwan3854/Dev-log/tree/master/Study/Operating_System/OS3-Limited_Direct_Execution.md)
 - [Scheduling](https://github.com/kwan3854/Dev-log/tree/master/Study/Operating_System/OS4-Scheduling.md)
