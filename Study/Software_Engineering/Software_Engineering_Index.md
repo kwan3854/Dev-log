@@ -16,5 +16,7 @@
 - [Design_Principles](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng6-Design_Principles.md)
 - [Architecture Design](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng7-Architecture_Design.md)
 - [Design Pattern](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng8-Design_Pattern.md)
+- [Implementation 1](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng9-Implementation_1.md)
+- [Implementation 2](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng10-Implementation_2.md)
 - Python Tetris 코드
 - 코딩지침
