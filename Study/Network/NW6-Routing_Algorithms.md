@@ -112,6 +112,7 @@ Dx(y) 의 값은 항상 정확한 값이 아니라, 일단 추측값을 넣어�
   링크 cost가 늘어났을때, 정보가 정말 느리게 업데이트 된다.
 
   (책 p.356, [유튜브 영상](https://youtu.be/_lAJyA70Z-o) 참고) (routing loop, count to infinit problem)
+  [자세하고 쉽게 설명된 블로그 글](https://ecsimsw.tistory.com/entry/Routing-Algorithm-distance-vector)
 
 ---
 
