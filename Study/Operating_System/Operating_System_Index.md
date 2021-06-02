@@ -28,3 +28,4 @@
 - [File Systems - file and directory](https://github.com/kwan3854/Dev-log/tree/master/Study/Operating_System/OS18-File_Systems_file_and_directory.md)
 - [File Systems - Implementation](https://github.com/kwan3854/Dev-log/tree/master/Study/Operating_System/OS19-File_System_Implementation.md)
 - [File Systems -Locality and The Fast File System](https://github.com/kwan3854/Dev-log/tree/master/Study/Operating_System/OS20-Locality_and_The_Fast_File_System.md)
+- [File Systems -Crash Consistency (FSCK and Journaling)](https://github.com/kwan3854/Dev-log/tree/master/Study/Operating_System/OS21-Crash_Consistency_FSCK_and_Journaling.md)
