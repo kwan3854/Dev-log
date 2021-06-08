@@ -2,7 +2,7 @@
 
 > 개발에 관한 모든 기록
 
-## Computer Science Study
+## Computer Science
 - [Operating System](https://github.com/kwan3854/Dev-log/blob/master/Study/Operating_System/Operating_System_Index.md)
 - [C#](https://github.com/kwan3854/Dev-log/blob/master/Study/C_Sharp/C_Sharp_Index.md)
 - [C++](https://github.com/kwan3854/Dev-log/blob/master/Study/CPP/CPP_Index.md)
