@@ -496,7 +496,7 @@ T(c1) 이 시그널을 받는 시점, 즉 대기상태에서 깨어나는 시점
 >
 > https://youtu.be/5R9u16q4IcI 이것과 관련해서 고민하시는 현업자의 의견
 >
-> Windows 에서는 Mesa semantic 을 채용한 것 같다.
+> Windows 에서는 Mesa semantic 을 마치 Hoare sementic 처럼 동작하게 구현한 것 같다.
 
 ### 개선된, 하지만 아직도 불완전한: if 문 대신 while 문
 
