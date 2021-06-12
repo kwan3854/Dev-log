@@ -704,32 +704,28 @@ void *consumer(void *arg) {
 컨디션 변수가 사용되는 재미있는 경우를 살펴보자.
 
 ```c
-cond_t empty, fill;
-mutex_t mutex;
+// how many bytes of the heap are free?
+int bytesLeft = MAX_HEAP_SIZE;
 
-void *producer(void *arg) {
-  int i;
-  for (i = 0; i < loops; i++) {
-    Pthread_mutex_lock(&mutex);           // p1
-    while (count == MAX)                  // p2
-      Pthread_cond_wait(&empty, &mutex);  // p3
-    put(i);                               // p4
-    Pthread_cond_signal(&fill);           // p5
-    Pthread_mutex_unlock(&mutex);         // p6
-  }
+// need lock and condition too
+cond_t c;
+mutex_t m;
+
+void *allocate(int size) {
+  Pthread_mutex_lock(&m);
+  while (bytesLeft < size)
+    Pthread_cond_wait(&c, &m);
+  void *ptr = ...; // get mem from heap
+  bytesLeft -= size;
+  Pthread_mutex_unlock(&m);
+  return ptr;
 }
 
-void *consumer(void *arg) {
-  int i;
-  for (i = 0; i < loops; i++) {
-    Pthread_mutex_lock(&mutex);           // c1
-    while (count == 0)                    // c2
-      Pthread_cond_wait(&fill, &mutex);   // c3
-    int tmp = get();                      // c4
-    Pthread_cond_signal(&empty);          // c5
-    Pthread_mutex_unlock(&mutex);         // c6
-    printf("%d\n", tmp);
-  }
+void free(void *ptr, int size) {
+  Pthread_mutex_lock(&m);
+  bytesLeft += size;
+  Pthread_cond_signal(&c); // whom to signal??
+  Pthread_mutex_unlock(&m);
 }
 ```
 
