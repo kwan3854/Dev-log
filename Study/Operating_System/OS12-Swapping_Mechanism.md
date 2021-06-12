@@ -163,7 +163,8 @@ else
 PFN = FindFreePhysicalPage()
   if (PFN == -1)		// 비어있는 페이지 못 찾음
     PFN = EvictPage()		// 교체 알고리즘 실행
-    \gndx{DiskRead}(\gndx{PTE.DiskAddr, PFN})		// 대기 (I/O를 기다리기)
+    // \gndx{DiskRead}(\gndx{PTE.DiskAddr, PFN})		// 대기 (I/O를 기다리기) (책 버전)
+    DiskRead(PTE.DiskAddr, pfn)		// 대기 (I/O를 기다리기)
     PTE.present = True		// 존재한다고 페이지 테이블에 갱신
     PTE.PFN = PFN		// 비트와 변환 (PFN)
     RetryInstruction()		// 명령어 재시도
