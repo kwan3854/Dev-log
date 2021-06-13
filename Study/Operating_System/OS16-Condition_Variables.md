@@ -137,9 +137,13 @@ pthread_cond_wait(pthread_cond_t *c, pthread_mutex_t *m); // 왜 mutex가 인자
 pthread_cond_signal(pthread_cond_t *c);
 ```
 mutex가 인자로 들어가는 이유는, wait으로 들어갈 때, 연관된 락을 해제하고 잠들고,
+
 누군가 깨워줘서 일어나서 wait함수에서 리턴하기 전에 다시 락을 걸기 때문이다.
+
 만약 락을 풀지 않으면, 락을 잡은채로 잠들어버려서 아무도 깨워주지 못할 것이다.
+
 여기서 락을 풀어버리기 때문에 spurious wakeup 이라는 문제도 발생하게 된다. (조건 확인 시 if 대신 while 을 사용해서 해결)
+
 ---
 
 위 코드가 실행되는 두 가지 경우가 있다. (부모 쓰레드가 자식 쓰레드를 생성 한 후,)
