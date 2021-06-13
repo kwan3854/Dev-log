@@ -140,7 +140,7 @@ else
 			TLB_INSERT(VPN, PTE.PFN, PTE.ProtectBits)
 			RetryInstruction()
 		else if (PTE.Present == False) // 페이지가 유효하지만 존재하지 않는 경우
-			RaiseException(Page_Fault)
+			RaiseException(PAGE_FAULT)
 ```
 
 1. **(18-21 라인) 페이지가 존재하며 유효한 경우**
