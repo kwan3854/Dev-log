@@ -6,9 +6,17 @@
 - [Operating System](https://github.com/kwan3854/Dev-log/blob/master/Study/Operating_System/Operating_System_Index.md)
 - [C#](https://github.com/kwan3854/Dev-log/blob/master/Study/C_Sharp/C_Sharp_Index.md)
 - [C++](https://github.com/kwan3854/Dev-log/blob/master/Study/CPP/CPP_Index.md)
+- [Modern C++]
 - [Network](https://github.com/kwan3854/Dev-log/blob/master/Study/Network/Network_Index.md)
 - [Software Engineering](https://github.com/kwan3854/Dev-log/blob/master/Study/Software_Engineering/Software_Engineering_Index.md)
 - [Object-Oriented Programming](https://github.com/kwan3854/Dev-log/blob/master/Study/OOP/OOP-Index.md)
+- [Algorithm]
+- [Data Structure]
+- [Computer Graphics]
+
+## Mathematics
+- [Linear Algebra]
+- [Discrete Mathematics]
 
 ## Thoughts
 - [About condition variables and spurious wakeup](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/about_condition_variable.md)
