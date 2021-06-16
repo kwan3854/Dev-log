@@ -12,4 +12,3 @@
 - [Namespaces](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Namespaces.md)
 - [Templates](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Templates.md)
 - [STL](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-STL.md)
-### Modern C++
