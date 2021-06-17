@@ -15,7 +15,7 @@
 - [Computer Graphics]
 
 ## Mathematics
-- [Linear Algebra]
+- [Linear Algebra](https://github.com/kwan3854/Dev-log/blob/master/Study/Linear_Algebra/Linear_Algebra-Index.md)
 - [Discrete Mathematics]
 
 ## Thoughts
