@@ -4,13 +4,13 @@
 
 ### Example
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge a_1x_1%2Ba_2x_2%2B...%2Ba_nx_n = b">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge a_1x_1%2Ba_2x_2%2B...%2Ba_nx_n = b">\
 
 이와 같은 형태의 식이 linear equation 이다.
 
 ### Coefficients
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge a_1,a_2...a_n">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge a_1,a_2...a_n">\
 
 위 식에서 coefficients 부분은 이 부분이다.
 
@@ -34,19 +34,19 @@ Two linear systems are called **equivalent** if they have the same solution set.
 
 ## 4. Matrix notation
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge x_1-2x_2%2Bx_3=0">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge x_1-2x_2%2Bx_3=0">\
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge 0%2B2x_2-8x_3=8">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge 0%2B2x_2-8x_3=8">\
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge -4x_1%2B5x_2%2B9x_3=-9">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge -4x_1%2B5x_2%2B9x_3=-9">\
 
 ### Coefficient Matrix (3 x 3)
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%5C%5C%200%20%26%202%20%26%20-8%5C%5C%20-4%20%26%205%20%26%209%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%5C%5C%200%20%26%202%20%26%20-8%5C%5C%20-4%20%26%205%20%26%209%20%5Cend%7Bbmatrix%7D">\
 
 ### Augmented Matrix (3 x 4)
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%202%20%26%20-8%20%26%208%5C%5C%20-4%20%26%205%20%26%209%20%26%20-9%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%202%20%26%20-8%20%26%208%5C%5C%20-4%20%26%205%20%26%209%20%26%20-9%20%5Cend%7Bbmatrix%7D">\
 
 ## 5. Solving Problem with row operations
 
@@ -58,15 +58,15 @@ Two linear systems are called **equivalent** if they have the same solution set.
 
 위의 방식을 이용해서 augmented matrix 를 풀어보면,
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%202%20%26%20-8%20%26%208%5C%5C%20-4%20%26%205%20%26%209%20%26%20-9%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%202%20%26%20-8%20%26%208%5C%5C%20-4%20%26%205%20%26%209%20%26%20-9%20%5Cend%7Bbmatrix%7D">\
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%201%20%26%20-4%20%26%204%5C%5C%200%20%26%20-3%20%26%2013%20%26%20-9%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%201%20%26%20-4%20%26%204%5C%5C%200%20%26%20-3%20%26%2013%20%26%20-9%20%5Cend%7Bbmatrix%7D">\
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%201%20%26%20-4%20%26%204%5C%5C%200%20%26%200%20%26%201%20%26%203%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%201%20%26%200%5C%5C%200%20%26%201%20%26%20-4%20%26%204%5C%5C%200%20%26%200%20%26%201%20%26%203%20%5Cend%7Bbmatrix%7D">\
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%200%20%26%20-3%5C%5C%200%20%26%201%20%26%200%20%26%2016%5C%5C%200%20%26%200%20%26%201%20%26%203%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-2%20%26%200%20%26%20-3%5C%5C%200%20%26%201%20%26%200%20%26%2016%5C%5C%200%20%26%200%20%26%201%20%26%203%20%5Cend%7Bbmatrix%7D">\
 
-<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%2029%5C%5C%200%20%26%201%20%26%200%20%26%2016%5C%5C%200%20%26%200%20%26%201%20%26%203%20%5Cend%7Bbmatrix%7D">  
+<img align="left" src="https://render.githubusercontent.com/render/math?math=\huge%5C%20%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%2029%5C%5C%200%20%26%201%20%26%200%20%26%2016%5C%5C%200%20%26%200%20%26%201%20%26%203%20%5Cend%7Bbmatrix%7D">\
 
 ### Row Equivalent
 
