@@ -12,7 +12,7 @@
 
 ## 2. Vector Summation
 
-<img style="float: left;" src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mathbf{u&plus;v}&space;=&space;\begin{bmatrix}&space;w_1\\&space;w_2&space;\end{bmatrix}&plus;\begin{bmatrix}&space;0.2\\&space;0.3&space;\end{bmatrix}=\begin{bmatrix}&space;3.2\\&space;-0.7&space;\end{bmatrix}" title="\mathbf{u+v} = \begin{bmatrix} w_1\\ w_2 \end{bmatrix}+\begin{bmatrix} 0.2\\ 0.3 \end{bmatrix}=\begin{bmatrix} 3.2\\ -0.7 \end{bmatrix}" />
+<img style="float: left;" src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mathbf{u&plus;v}&space;=&space;\begin{bmatrix}&space;w_1\\&space;w_2&space;\end{bmatrix}&plus;\begin{bmatrix}&space;0.2\\&space;0.3&space;\end{bmatrix}=\begin{bmatrix}&space;3.2\\&space;-0.7&space;\end{bmatrix}" title="\mathbf{u+v} = \begin{bmatrix} 3\\ -1 \end{bmatrix}+\begin{bmatrix} 0.2\\ 0.3 \end{bmatrix}=\begin{bmatrix} 3.2\\ -0.7 \end{bmatrix}" />
 
 ## 3. Scalar multiplication
 
