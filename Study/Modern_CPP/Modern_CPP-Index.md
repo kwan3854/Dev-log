@@ -9,10 +9,10 @@
 
 ### Memory Structure
 
-- C++ Memory
-- Variables in Memory
-- Variable Types1
-- Variable Types2
+- [C++ Memory](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/0-CPP_Memory.md)
+- [Variables in Memory](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/1-Variables_in_Memory.md)
+- [Variable Types1](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/2-Type_Size_in_Memory.md)
+- [Variable Types2](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/3-Type_Size_in_Memory_2.md)
 - Stack Frame
 - Heap Intro
 - Heap Code
