@@ -14,7 +14,7 @@
 - [Variable Types1](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/2-Type_Size_in_Memory.md)
 - [Variable Types2](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/3-Type_Size_in_Memory_2.md)
 - [Stack Frame](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/4-Stack_Frame.md)
-- [Heap Intro](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/5-Heap_Memory_Inroduction.md)
+- [Heap Intro](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/5-Heap_Memory_Introduction.md)
 - Heap Code
 - Heap in Process
 - Heap, Stack, Static
