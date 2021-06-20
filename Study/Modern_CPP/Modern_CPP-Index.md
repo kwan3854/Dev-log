@@ -1,0 +1,163 @@
+# Modern C++
+
+## Reference
+
+- Effective Modern C++
+- nocodeprogram.com
+
+## Index
+
+### Memory Structure
+
+- C++ Memory
+- Variables in Memory
+- Variable Types1
+- Variable Types2
+- Stack Frame
+- Heap Intro
+- Heap Code
+- Heap in Process
+- Heap, Stack, Static
+- Object Creation
+
+### Compile Process
+
+- C++ Build
+- Introduction
+- Header File
+- PreProcessor
+- Static & Extern
+- Assembly
+- Debug
+- Static Library
+- Dynamic Library
+
+### Resource Move
+
+- C++ Reference
+- Pointer vs Reference
+- L-Value vs R-Value
+- std::move()
+- RVO
+
+### OOP
+
+- C++ OOP
+- OOP Intro
+- Object Alignment
+- Static Members
+- Member Init List
+- copy/move Constructor
+- copy/move Assignment
+- Operator Overloading
+- Class Keywords
+
+### Inheritance
+
+- C++ Inheritance
+- Inheritance Intro
+- Virtual Function
+- Virtual Table
+- Pure Virtual Function
+- Multiple Inheritance
+- Virtual Inheritance
+- Dynamic Cast
+- Object Slicing
+- I/O Inheritance
+
+### Smart Pointer
+
+- C++ SmartPtr
+- Smart Pointer
+- Unique Pointer
+- Shared Pointer
+- Weak Pointer
+
+### Templates
+
+- C++ Templates
+- Introduction
+- Deduction
+- Instantiation
+- Various Templates
+- Template Concept
+
+### Functional Programming
+
+- C++ Lambda
+- Introduction
+- Lambda Expression
+- Lambda This
+- Higher Order Functions
+- std::function
+
+### Vector, Array
+
+- C++ Array
+- Vector Intro
+- std::vector
+- Vector memory
+- Vector Loop
+- Erase, Remove
+- std::array
+- Algorithms
+- ND array
+- std::deque, Vector vs Array
+
+### List, Stack, Queue, Heap
+
+- std::list
+- std::forward_list
+- std::stack, queue
+- std::make_heap
+
+### Set, Map(Hash)
+
+- C++ set map hash
+- std::set
+- std::multi_set
+- std::map
+- std::unorderd_set
+- hash set
+- std::unorderd_map
+
+### Types
+
+- Floating Numbers1
+- Floating Numbers2
+- std::pair, tuple
+- std::optional
+- enum class
+- Union
+- std::variant
+- std::any
+- Type Punning
+
+### Exception
+
+- Intro
+- Exception
+- Stack Unwinding
+- Safety Guarantees
+- Usages
+
+### Parallel Programming
+
+- Introduction
+- easy way
+- thread
+- async
+- CUDA 1
+- CUDA 2
+- Memory map
+- race Condition
+- false Sharing
+
+### Tip
+
+- rand
+- const everywhere
+- init list(constuctor)
+- unit Test
+- std::string
+- Data Oriented Programming
