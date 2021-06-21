@@ -16,7 +16,7 @@
 - [Stack Frame](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/4-Stack_Frame.md)
 - [Heap Intro](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/5-Heap_Memory_Introduction.md)
 - [Heap Code](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/6-Heap_Code.md)
-- Heap in Process
+- [Heap in Process](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/7-Heap_in_Process.md)
 - Heap, Stack, Static
 - Object Creation
 
