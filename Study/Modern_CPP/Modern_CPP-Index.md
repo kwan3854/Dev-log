@@ -18,7 +18,7 @@
 - [Heap Code](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/6-Heap_Code.md)
 - [Heap in Process](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/7-Heap_in_Process.md)
 - [Heap, Stack, Static](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/8-Heap_Stack_Static.md)
-- Object Creation
+- [Object Creation](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/9-Object_Creation.md)
 
 ### Compile Process
 
