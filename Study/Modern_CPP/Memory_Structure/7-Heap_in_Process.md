@@ -28,7 +28,7 @@ int main()
 }
 ```
 
-![test_screen_1](Images/6/test_screen_1.png)
+![test_screen_1](Images/7/test_screen_1.png)
 
 10000000 루프 실행새켜보면, 이 프로그램의 CPU 사용량은 매우 높지만(87.1), 메모리 사용량은 0이다.
 
@@ -60,11 +60,11 @@ int main()
 }
 ```
 
-![test_screen_2](Images/6/test_screen_2.png)
+![test_screen_2](Images/7/test_screen_2.png)
 
-![test_screen_3](Images/6/test_screen_3.png)
+![test_screen_3](Images/7/test_screen_3.png)
 
-![test_screen_4](Images/6/test_screen_4.png)
+![test_screen_4](Images/7/test_screen_4.png)
 
 다음과 같이 메모리 사용량이 계속 늘어나다가, OS가 해당 프로그램을 죽여버린다.
 
@@ -78,7 +78,7 @@ Memory leak 을 방지하는 좋은 방법은, safer C++ style 로 코딩을 하
 
 Valgrind 는 메모리 누수 뿐만 아니라, 메모리 관련된 violation 도 체크해 주는 tool 이다.
 
-![Valgrind_1](Images/6/Valgrind_1.png)
+![Valgrind_1](Images/7/Valgrind_1.png)
 
 1000 byte 가 leak 이 되었다고 알려준다.
 
@@ -89,7 +89,7 @@ prompt: g++ -g leakyHeap.cpp
 prompt: valgrind --leak-check=full ./a.out
 ```
 
-![Valgrind_2](Images/6/Valgrind_2.png)
+![Valgrind_2](Images/7/Valgrind_2.png)
 
 코드의 어느부분에서 leak 이 일어났는지 까지 알 수 있다.
 
@@ -99,17 +99,17 @@ prompt: valgrind --leak-check=full ./a.out
 >
 > 실제 코드 작성시에는 smart pointer 등의 safer 한 방법을 사용하는 것이 좋다.
 
-![process_view_1](Images/6/process_view_1.png)
+![process_view_1](Images/7/process_view_1.png)
 
 우리는 sa, sb, hap, hbp 순서대로 작성했지만, 실제 stack 에서는 compiler 가 순서를 바꾸어 hbp, hap, sb, sa 순으로 정렬한 것을 볼 수 있다.
 
-<img src="Images/6/process_view_2.png" alt="process_view_2" style="float: left; zoom:50%;" />
+<img src="Images/7/process_view_2.png" alt="process_view_2" style="float: left; zoom:50%;" />
 
 그리고, 다음처럼 heap 부분은 stack 과는 다르게 띄엄 띄엄 할당되어있는 것을 알 수 있다. (이 예시에서는 32의 차이)
 
 이는 메모리 allocator 의 임의대로 할당되므로 매번 다를 수 있다.
 
-<img src="Images/6/process_view_3.png" alt="process_view_3" style="float: left; zoom:50%;" />
+<img src="Images/7/process_view_3.png" alt="process_view_3" style="float: left; zoom:50%;" />
 
 이를 gcc 말고, 다른 컴파일러를 사용해서 비교해보면,
 
@@ -117,7 +117,7 @@ clang 의 경우, GCC 보다 stack 과 heap 의 거리를 훨씬 많이 벌려 �
 
 stack 의 할당 순서도 다른 것을 볼 수 있다.
 
-![process_view_4](Images/6/process_view_4.png)
+![process_view_4](Images/7/process_view_4.png)
 
 ### 결국
 
