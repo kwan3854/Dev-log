@@ -33,6 +33,8 @@ int main()
 prompt: g++ main.cpp -o greeting -Wall -Werror -std=c++17 -g
 ```
 
+- -Werror 옵션을 통해서 모든 warning 을 error 로 바꾸어 출력하게 해서, 조금 더 보수적이고 안정적이게 개발을 할 수 있다.
+
 ### Optimization 옵션
 
 O, O1, O2, O0, Os, Ofast 등 다양한 옵션이 있다.
