@@ -10,12 +10,7 @@
 
   바깥쪽에서 링크를 찾아라.
 
-이것들을,
-
-- variable
-- function
-
-관점에서 살펴본다.
+이것들을, variable 과 function 관점에서 살펴본다.
 
 ## 1. Variable
 
