@@ -3,7 +3,7 @@
 ## Reference
 
 - Effective Modern C++
-- nocodeprogram.com
+- nocodeprogram.com (유튜브 채널: 코드없는 프로그래밍)
 
 ## Index
 
