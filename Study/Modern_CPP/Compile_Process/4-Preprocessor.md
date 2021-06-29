@@ -1,12 +1,12 @@
 # Preprocessor
 
-![preprocessor](Images/4/preprocessor.png)
-
 Preprocessor 의 세 가지에 대해 알아본다.
 
 1. conditionally
 2. replace
 3. include
+
+![preprocessor](Images/4/preprocessor.png)
 
 ## 2. Conditionally
 
