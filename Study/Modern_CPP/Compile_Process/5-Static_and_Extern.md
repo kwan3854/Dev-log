@@ -34,9 +34,9 @@ int main()
 int a = 100;
 ```
 
-![variable_1](Images/6/variable_1.png)
+![variable_1](Images/5/variable_1.png)
 
-![variable_2](Images/6/variable_2.png)
+![variable_2](Images/5/variable_2.png)
 
 ### 해결법: extern
 
@@ -66,7 +66,7 @@ prompt: ./a.out
 
 extern 이라는 키워드를 통해 정의는 이 파일이 바깥쪽에 있다는 것을 알려준다.
 
-![variable_solution_1](Images/6/variable_solution_1.png)
+![variable_solution_1](Images/5/variable_solution_1.png)
 
 ### 해결법: static
 
@@ -96,7 +96,7 @@ prompt: ./a.out
 
 static 이라는 keyword 를 사용해, 해당 변수를 파일 바깥에서 찾을 수 없게 만들어 준다.
 
-![variable_solution_2](Images/6/variable_solution_2.png)
+![variable_solution_2](Images/5/variable_solution_2.png)
 
 ## 2. Function
 
@@ -235,9 +235,9 @@ double bar(int a)
 }
 ```
 
-![extern_c](Images/6/extern_c.png)
+![extern_c](Images/5/extern_c.png)
 
-![name_mangling](Images/6/name_mangling.png)
+![name_mangling](Images/5/name_mangling.png)
 
 컴파일러마다 고유한 방식으로 name mangling 이라는 것을 하는데,
 
@@ -281,7 +281,7 @@ extern "C" double bar(int a)
 }
 ```
 
-![name_mangling_2](Images/6/name_mangling_2.png)
+![name_mangling_2](Images/5/name_mangling_2.png)
 
 extern "C" 키워드를 사용하니 mangling 이 사라진 것을 볼 수 있다.
 
