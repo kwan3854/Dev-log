@@ -28,7 +28,7 @@
 - [Preprocessor](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/4-Preprocessor.md)
 - [Static & Extern](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/5-Static_and_Extern.md)
 - [Assembly](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/6-Assembly.md)
-- Debug
+- [Debug](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/7-Debug.md)
 - Static Library
 - Dynamic Library
 
