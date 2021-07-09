@@ -29,7 +29,7 @@
 - [Static & Extern](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/5-Static_and_Extern.md)
 - [Assembly](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/6-Assembly.md)
 - [Debug](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/7-Debug.md)
-- Static Library
+- [Static Library](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/8-Static_Library.md)
 - Dynamic Library
 
 ### Resource Move
