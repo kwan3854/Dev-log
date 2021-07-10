@@ -12,8 +12,8 @@ C++ 코딩을 하다보면 Standard library 를 사용해 본적이 있을 것�
 
 - Static library
 
-  - 윈도우의 경우: `.lib` 파일
-  - 리눅스의 경우: `.a` 파일
+  - 윈도우: `.lib` 파일
+  - 리눅스: `.a` 파일
 
 - Dynamic library
 
