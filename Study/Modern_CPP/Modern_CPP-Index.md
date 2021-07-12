@@ -30,7 +30,7 @@
 - [Assembly](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/6-Assembly.md)
 - [Debug](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/7-Debug.md)
 - [Static Library](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/8-Static_Library.md)
-- Dynamic Library
+- [Dynamic Library](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/9-Dynamic_Library.md)
 
 ### Resource Move
 
