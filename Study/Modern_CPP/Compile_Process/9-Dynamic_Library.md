@@ -7,7 +7,7 @@
 
 ---
 
-- -fPIC: Position Independent Code 의 약자로, 컴파일시 해당 옵션을 주면 shared library 용으로 object 를 만든다.
+- `-fPIC` : Position Independent Code 의 약자로, 컴파일시 해당 옵션을 주면 shared library 용으로 object 를 만든다.
 
 ---
 
