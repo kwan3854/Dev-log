@@ -131,6 +131,8 @@ int main()
 
 만약 더 자세히 알고싶다면, GOT, PLT 등의 키워드를 통해 검색을 해서 공부해 보길 바란다.
 
+---
+
 ### Static library 와 Dynamic library 중 어느 것을 사용할까?
 
 **일반적인 경우, static library 를 선호한다.**
