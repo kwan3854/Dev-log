@@ -34,8 +34,8 @@
 
 ### Resource Move
 
-- C++ Reference
-- Pointer vs Reference
+- [C++ Reference](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Resource_Move/1-CPP_Reference.md)
+- [Pointer vs Reference](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Resource_Move/2-Pointer_vs_Reference.md)
 - L-Value vs R-Value
 - std::move()
 - RVO
