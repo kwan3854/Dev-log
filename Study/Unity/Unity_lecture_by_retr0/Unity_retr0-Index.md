@@ -7,6 +7,8 @@
 ## Index
 
 - [Intro (유니티 준비하기)](https://github.com/kwan3854/Dev-log/blob/master/Study/Unity/Unity_lecture_by_retr0/retr0_unity_intro.md)
+- 게임 엔진의 원리
+  - [게임 오브젝트와 컴포넌트](https://github.com/kwan3854/Dev-log/blob/master/Study/Unity/Unity_lecture_by_retr0/retr0_unity_principle_of_game_engine_1.md)
 - C# 프로그래밍: 기본
 - 게임 제작: 소코반(창고지기)
 - C# 프로그래밍 중급 (1/2)
