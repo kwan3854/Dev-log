@@ -18,6 +18,11 @@
 - [Linear Algebra](https://github.com/kwan3854/Dev-log/blob/master/Study/Linear_Algebra/Linear_Algebra-Index.md)
 - [Discrete Mathematics]
 
+## Game Development
+
+- Unity
+  - [Unity lecture by retr0](https://github.com/kwan3854/Dev-log/blob/master/Study/Unity/Unity_lecture_by_retr0/Unity_retr0-Index.md)
+
 ## Thoughts
 - [About condition variables and spurious wakeup](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/about_condition_variable.md)
 - [STL doesn't 'just works'](https://github.com/kwan3854/Dev-log/blob/master/Thoughts/STL_is_not_magic.md)
