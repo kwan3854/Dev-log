@@ -13,7 +13,7 @@
 - [Object-Oriented Programming](Study/OOP/OOP-Index.md)
 - [Algorithm]
 - [Data Structure](Study/Data_Structures_and_Algorithms/DS_Algo_index.md)
-- [Computer Architecture]
+- [Computer Architecture](Study/Computer_Architecture/CA_Index.md)
 - [Computer Graphics]
 - [Database]
 
