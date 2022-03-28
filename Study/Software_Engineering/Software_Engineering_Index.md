@@ -8,13 +8,13 @@
 
 ## Index
 
-- [Intro](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng1-Intro.md)
-- [Software Engineering Process](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng2-Software%20Engineering%20Process.md)
+- [Intro](SWEng1-Intro.md)
+- [Software Engineering Process](SWEng2-Software_Engineering_Process.md)
 - [Project Planning and Management](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng3-Project_Management.md)
-- [Requirements Analysis](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng4-Requirements_Analysis.md)
-- [Requirements Modeling](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng5-Requirements_Modeling.md)
-- [Design_Principles](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng6-Design_Principles.md)
-- [Architecture Design](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng7-Architecture_Design.md)
-- [Design Pattern](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng8-Design_Pattern.md)
-- [Implementation 1](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng9-Implementation_1.md)
-- [Implementation 2](https://github.com/kwan3854/Dev-log/tree/master/Study/Software_Engineering/SWEng10-Implementation_2.md)
+- [Requirements Analysis](SWEng4-Requirements_Analysis.md)
+- [Requirements Modeling](SWEng5-Requirements_Modeling.md)
+- [Design_Principles](SWEng6-Design_Principles.md)
+- [Architecture Design](SWEng7-Architecture_Design.md)
+- [Design Pattern](SWEng8-Design_Pattern.md)
+- [Implementation 1](SWEng9-Implementation_1.md)
+- [Implementation 2](SWEng10-Implementation_2.md)

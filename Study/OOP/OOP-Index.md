@@ -7,7 +7,7 @@
 
 ## Index
 
-- [Elegant Object Chapter 1 ~ 2](https://github.com/kwan3854/Dev-log/tree/master/Study/OOP/OOP-Elegant_Object_1.md)
-- [Elegant Object Chapter 3](https://github.com/kwan3854/Dev-log/tree/master/Study/OOP/OOP-Elegant_Object_2.md)
-- [Elegant Object Chapter 4](https://github.com/kwan3854/Dev-log/tree/master/Study/OOP/OOP-Elegant_Object_3.md)
+- [Elegant Object Chapter 1 ~ 2](OOP-Elegant_Object_1.md)
+- [Elegant Object Chapter 3](OOP-Elegant_Object_2.md)
+- [Elegant Object Chapter 4](OOP-Elegant_Object_3.md)
 

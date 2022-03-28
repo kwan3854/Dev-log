@@ -9,33 +9,33 @@
 
 ### Memory Structure
 
-- [C++ Memory](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/0-CPP_Memory.md)
-- [Variables in Memory](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/1-Variables_in_Memory.md)
-- [Variable Types1](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/2-Type_Size_in_Memory_1.md)
-- [Variable Types2](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/3-Type_Size_in_Memory_2.md)
-- [Stack Frame](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/4-Stack_Frame.md)
-- [Heap Intro](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/5-Heap_Memory_Introduction.md)
-- [Heap Code](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/6-Heap_Code.md)
-- [Heap in Process](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/7-Heap_in_Process.md)
-- [Heap, Stack, Static](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/8-Heap_Stack_Static.md)
-- [Object Creation](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Memory_Structure/9-Object_Creation.md)
+- [C++ Memory](Memory_Structure/0-CPP_Memory.md)
+- [Variables in Memory](Memory_Structure/1-Variables_in_Memory.md)
+- [Variable Types1](Memory_Structure/2-Type_Size_in_Memory_1.md)
+- [Variable Types2](Memory_Structure/3-Type_Size_in_Memory_2.md)
+- [Stack Frame](Memory_Structure/4-Stack_Frame.md)
+- [Heap Intro](Memory_Structure/5-Heap_Memory_Introduction.md)
+- [Heap Code](Memory_Structure/6-Heap_Code.md)
+- [Heap in Process](Memory_Structure/7-Heap_in_Process.md)
+- [Heap, Stack, Static](Memory_Structure/8-Heap_Stack_Static.md)
+- [Object Creation](Memory_Structure/9-Object_Creation.md)
 
 ### Compile Process
 
-- [C++ Build](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/1-CPP_Build.md)
-- [Introduction](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/2-Introduction.md)
-- [Header File](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/3-Header_File.md)
-- [Preprocessor](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/4-Preprocessor.md)
-- [Static & Extern](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/5-Static_and_Extern.md)
-- [Assembly](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/6-Assembly.md)
-- [Debug](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/7-Debug.md)
-- [Static Library](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/8-Static_Library.md)
-- [Dynamic Library](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Compile_Process/9-Dynamic_Library.md)
+- [C++ Build](Compile_Process/1-CPP_Build.md)
+- [Introduction](Compile_Process/2-Introduction.md)
+- [Header File](Compile_Process/3-Header_File.md)
+- [Preprocessor](Compile_Process/4-Preprocessor.md)
+- [Static & Extern](Compile_Process/5-Static_and_Extern.md)
+- [Assembly](Compile_Process/6-Assembly.md)
+- [Debug](Compile_Process/7-Debug.md)
+- [Static Library](Compile_Process/8-Static_Library.md)
+- [Dynamic Library](Compile_Process/9-Dynamic_Library.md)
 
 ### Resource Move
 
-- [C++ Reference](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Resource_Move/1-CPP_Reference.md)
-- [Pointer vs Reference](https://github.com/kwan3854/Dev-log/tree/master/Study/Modern_CPP/Resource_Move/2-Pointer_vs_Reference.md)
+- [C++ Reference](Resource_Move/1-CPP_Reference.md)
+- [Pointer vs Reference](Resource_Move/2-Pointer_vs_Reference.md)
 - L-Value vs R-Value
 - std::move()
 - RVO

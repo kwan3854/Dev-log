@@ -7,7 +7,7 @@
 
 ## Index
 
-- [Systems of Linear Equations](https://github.com/kwan3854/Dev-log/tree/master/Study/Linear_Algebra/LA1-Systems_of_Linear_Equations.md)
-- [Row Reduction and Echelon Forms](https://github.com/kwan3854/Dev-log/tree/master/Study/Linear_Algebra/LA2-Row_Reduction_and_Echelon_Forms.md)
-- [Vector Equations](https://github.com/kwan3854/Dev-log/tree/master/Study/Linear_Algebra/LA3-Vector_Equations.md)
-- [The Matrix Equations](https://github.com/kwan3854/Dev-log/tree/master/Study/Linear_Algebra/LA4-The_Matrix_Equations.md)
+- [Systems of Linear Equations](LA1-Systems_of_Linear_Equations.md)
+- [Row Reduction and Echelon Forms](LA2-Row_Reduction_and_Echelon_Forms.md)
+- [Vector Equations](LA3-Vector_Equations.md)
+- [The Matrix Equations](LA4-The_Matrix_Equations.md)

@@ -7,8 +7,8 @@
 
 ## Index
 ### Classic C++
-- [Constructor](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Constructor.md)
-- [Operator Overloading](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Operator_Overloading.md)
-- [Namespaces](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Namespaces.md)
-- [Templates](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-Templates.md)
-- [STL](https://github.com/kwan3854/Dev-log/tree/master/Study/CPP/CPP-STL.md)
+- [Constructor](CPP-Constructor.md)
+- [Operator Overloading](CPP-Operator_Overloading.md)
+- [Namespaces](CPP-Namespaces.md)
+- [Templates](CPP-Templates.md)
+- [STL](CPP-STL.md)
