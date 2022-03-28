@@ -12,7 +12,7 @@
 - [Software Engineering](Study/Software_Engineering/Software_Engineering_Index.md)
 - [Object-Oriented Programming](Study/OOP/OOP-Index.md)
 - [Algorithm]
-- [Data Structure]
+- [Data Structure](Study/Data_Structures_and_Algorithms/DS_Algo_index.md)
 - [Computer Architecture]
 - [Computer Graphics]
 - [Database]
