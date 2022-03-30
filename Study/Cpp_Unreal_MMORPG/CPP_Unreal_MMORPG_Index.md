@@ -2,7 +2,7 @@
 
 ## 참고한 강의
 
-- C++ 과 언리얼로 만드는 MMORPG 게임 개발 시리즈 (by Rookiss)
+- C++ 과 언리얼로 만드는 MMORPG 게임 개발 시리즈 (by Rookiss, from inflearn)
 
 ## Index
 
@@ -10,10 +10,10 @@
 
 - 어셈블리 언어 입문
   - [환경 설정](CPP_Unreal_MMORPG_assembly_settings.md)
-  - 데이터 기초
-  - 레지스터 기초
-  - 변수와 레지스터
-  - 문자와 엔디안
+  - [데이터 기초](CPP_Unreal_MMORPG_assembly_data_basics.md)
+  - [레지스터 기초](CPP_Unreal_MMORPG_assembly_register_basics.md)
+  - [변수와 레지스터](CPP_Unreal_MMORPG_assembly_variable_and_register.md)
+  - [문자와 엔디안](CPP_Unreal_MMORPG_assembly_character_and_endian.md)
   - 사칙연산
   - 시프트 연산과 논리 연산
   - 분기문
