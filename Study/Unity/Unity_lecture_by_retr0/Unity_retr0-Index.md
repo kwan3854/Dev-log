@@ -12,7 +12,7 @@
   - [메시지와 브로드캐스팅](retr0_unity_principle_of_game_engine_2.md)
 - C# 프로그래밍: 기본
   - [변수와 함수의 이해](retr0_unity_C_sharp_basics_1.md)
-  - [콘솔 출력 + C# 기본 변수]
+  - [콘솔 출력 + C# 기본 변수](retr0_unity_C_sharp_basics_2.md)
   - [사칙연산 + 복합연산자]
   - [함수 + 스코프]
   - [형변환 + 조건문]
