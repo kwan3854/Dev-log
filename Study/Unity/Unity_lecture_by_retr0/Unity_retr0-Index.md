@@ -13,9 +13,9 @@
 - C# 프로그래밍: 기본
   - [변수와 함수의 이해](retr0_unity_C_sharp_basics_1.md)
   - [콘솔 출력 + C# 기본 변수](retr0_unity_C_sharp_basics_2.md)
-  - [사칙연산 + 복합연산자]
-  - [함수 + 스코프]
-  - [형변환 + 조건문]
+  - [사칙연산 + 복합연산자](retr0_unity_C_sharp_basics_3.md)
+  - [함수 + 스코프](retr0_unity_C_sharp_basics_4.md)
+  - [형변환 + 조건문](retr0_unity_C_sharp_basics_5.md)
   - [분기문 + 반복문]
   - [배열]
   - [클래스와 오브젝트]
