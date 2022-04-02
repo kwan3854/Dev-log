@@ -16,9 +16,9 @@
   - [사칙연산 + 복합연산자](retr0_unity_C_sharp_basics_3.md)
   - [함수 + 스코프](retr0_unity_C_sharp_basics_4.md)
   - [형변환 + 조건문](retr0_unity_C_sharp_basics_5.md)
-  - [분기문 + 반복문]
-  - [배열]
-  - [클래스와 오브젝트]
+  - [분기문 + 반복문](retr0_unity_C_sharp_basics_6.md)
+  - [배열](retr0_unity_C_sharp_basics_7.md)
+  - [클래스와 오브젝트](retr0_unity_C_sharp_basics_8.md)
 - 게임 제작: 소코반(창고지기)
 - C# 프로그래밍 중급 (1/2)
 - 게임 제작: 어메이징 볼링
