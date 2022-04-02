@@ -37,6 +37,7 @@
 - [STL doesn't 'just works'](Thoughts/STL_is_not_magic.md)
 - [Is there any point of "reference of pointer"? (pointer vs reference)](Thoughts/Is_there_any_point_of_reference_of_pointer.md)
 - [How swarm works](Thoughts/How_swarm_works.md)
+- [개발자가 왜 라는 질문을 묻는 방법](How_programmers_ask_why.md)
 
 ## Projects Dev-log
 
