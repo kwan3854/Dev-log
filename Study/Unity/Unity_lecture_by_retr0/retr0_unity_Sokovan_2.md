@@ -218,6 +218,8 @@ Player 의 Inspector 창을 보면 Player(Script) 의 Speed 값을 마음대로 
 
 speed 가 public 으로 되어 있기 때문에 이 문제가 발생하는 것이다.
 
+### 해결
+
 ```c#
 using System.Collections;
 using System.Collections.Generic;
@@ -230,6 +232,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start() // 게임이 처음 시작되었을때 한번 실행됨
     {
+        // GetComponent 는 게임 오브젝트를 뒤져서 모든 컴포넌트를 확인해 해당 컴포넌트를 찾아낸다.
+        // 찾아내지 못하면 null 반환
         playerRigidbody = GetComponent<Rigidbody>(); // 제네릭 문법
     }
 
