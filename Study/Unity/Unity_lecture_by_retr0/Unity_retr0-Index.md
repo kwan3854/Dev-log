@@ -21,8 +21,8 @@
   - [클래스와 오브젝트](retr0_unity_C_sharp_basics_8.md)
 - 게임 제작: 소코반(창고지기)
   - [초기 씬 구성](retr0_unity_Sokovan_1.md)
-  - [플레이어 조작](retr0_unity_Sokovan_2)
-  - 레벨 디자인
+  - [플레이어 조작](retr0_unity_Sokovan_2.md)
+  - [레벨 디자인](retr0_unity_Sokovan_3.md)
   - 오브젝트 회전 + 시간 간격
   - 충돌 처리
   - 게임 매니저와 승리 조건
