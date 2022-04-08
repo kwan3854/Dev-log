@@ -48,6 +48,10 @@
 
 - 멀티플레이 3D MMORPG
 
+## Game Talk
+
+- [게임 개발중 웃긴 버그와 해프닝](Game_Talk/funny_game_bugs_and_debug.md)
+
 ## Thoughts
 
 - [About condition variables and spurious wakeup](Thoughts/about_condition_variable.md)
