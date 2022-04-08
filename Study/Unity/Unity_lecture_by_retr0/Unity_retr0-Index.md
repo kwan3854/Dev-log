@@ -31,7 +31,7 @@
   - [완성된 프로젝트 깃허브 링크](https://github.com/kwan3854/Sokovan_Game)
 - C# 프로그래밍 중급 (1/2)
   - [벡터 연산 기초](retr0_unity_C_sharp_mid_1.md)
-  - 평행이동과 좌표계 + 부모 자식 관계
+  - [평행이동과 좌표계 + 부모 자식 관계](retr0_unity_C_sharp_mid_2.md)
   - 회전과 쿼터니언
   - 인스턴스화
   - 오버로드
