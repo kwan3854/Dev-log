@@ -32,10 +32,10 @@
 - C# 프로그래밍 중급 (1/2)
   - [벡터 연산 기초](retr0_unity_C_sharp_mid_1.md)
   - [평행이동과 좌표계 + 부모 자식 관계](retr0_unity_C_sharp_mid_2.md)
-  - 회전과 쿼터니언
-  - 인스턴스화
-  - 오버로드
-  - 정적 변수 + 정적 함수
+  - [회전과 쿼터니언](retr0_unity_C_sharp_mid_3.md)
+  - [인스턴스화](retr0_unity_C_sharp_mid_4.md)
+  - [오버로드](retr0_unity_C_sharp_mid_5.md)
+  - [정적 변수 + 정적 함수](retr0_unity_C_sharp_mid_6.md)
   - 리스트
   - 싱글톤
   - 코루틴
