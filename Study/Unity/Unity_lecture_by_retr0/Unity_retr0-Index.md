@@ -40,6 +40,16 @@
   - [싱글톤](retr0_unity_C_sharp_mid_8.md)
   - [코루틴](retr0_unity_C_sharp_mid_9.md)
 - 게임 제작: 어메이징 볼링
+  - [필요 에셋 임포트](retr0_unity_Amazing_Bowling.md)
+  - [회전 포신](retr0_unity_Amazing_Bowling_2.md)
+  - [포탄](retr0_unity_Amazing_Bowling_3.md)
+  - 프롭 + 데미지 시스템
+  - 파워 슬라이더
+  - 볼 슈터
+  - 랜덤 오브젝트 생성기
+  - 카메라 추적
+  - 게임 매니저
+  - 오디오 믹싱 + 최종 빌드
 - C# 프로그래밍: 중급 (2/2)
 - C# 프로그래밍: 고급
 - 레퍼런스: 유니티 애니메이션
