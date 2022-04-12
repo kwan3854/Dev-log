@@ -43,9 +43,9 @@
   - [필요 에셋 임포트](retr0_unity_Amazing_Bowling.md)
   - [회전 포신](retr0_unity_Amazing_Bowling_2.md)
   - [포탄](retr0_unity_Amazing_Bowling_3.md)
-  - 프롭 + 데미지 시스템
-  - 파워 슬라이더
-  - 볼 슈터
+  - [프롭 + 데미지 시스템](retr0_unity_Amazing_Bowling_4.md)
+  - [파워 슬라이더](retr0_unity_Amazing_Bowling_5.md)
+  - [볼 슈터](retr0_unity_Amazing_Bowling_6.md)
   - 랜덤 오브젝트 생성기
   - 카메라 추적
   - 게임 매니저
