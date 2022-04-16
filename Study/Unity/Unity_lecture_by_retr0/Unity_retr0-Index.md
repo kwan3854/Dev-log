@@ -46,10 +46,10 @@
   - [프롭 + 데미지 시스템](retr0_unity_Amazing_Bowling_4.md)
   - [파워 슬라이더](retr0_unity_Amazing_Bowling_5.md)
   - [볼 슈터](retr0_unity_Amazing_Bowling_6.md)
-  - 랜덤 오브젝트 생성기
-  - 카메라 추적
-  - 게임 매니저
-  - 오디오 믹싱 + 최종 빌드
+  - [랜덤 오브젝트 생성기](retr0_unity_Amazing_Bowling_7.md)
+  - [카메라 추적](retr0_unity_Amazing_Bowling_8.md)
+  - [게임 매니저](retr0_unity_Amazing_Bowling_9.md)
+  - [오디오 믹싱 + 최종 빌드](retr0_unity_Amazing_Bowling_10.md)
 - C# 프로그래밍: 중급 (2/2)
 - C# 프로그래밍: 고급
 - 레퍼런스: 유니티 애니메이션
