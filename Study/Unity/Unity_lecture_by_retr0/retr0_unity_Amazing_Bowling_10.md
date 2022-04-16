@@ -27,8 +27,22 @@
 ## 버그 픽스
 
 - Rig -> Main Camera -> Camera
+
   - Clear Flags: Solid Color
   - Background: 컬러픽커를 통해 바닥 색과 동일하게 맞춤
+
+- 포탄이 맵 밖으로 떨어졌을 때 게임이 진행이 안되는 버그
+
+  - OnTriggerEnter 가 발동되기 전에 Destroy 함수가 작동해서 OnTriggerEnter 함수 내에서 실행시켰던 OnBallDestroy 함수가 작동하지 않음
+
+  - 다음 코드를 Ball.cs  Ball 클래스 내부에 추가
+
+  - ```c#
+        private void OnDestroy()
+        {
+            GameManager.instance.OnBallDestroy();
+        }
+    ```
 
 ## 빌드
 
