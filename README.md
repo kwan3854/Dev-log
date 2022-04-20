@@ -41,7 +41,7 @@
 ### 유니티 게임
 
 - [Sokovan (소코반/창고지기)](https://github.com/kwan3854/Sokovan_Game)
-- 어메이징 볼링
+- [어메이징 볼링](https://github.com/kwan3854/Amazing_Bowling)
 - 좀비 TPS
 
 ### 언리얼 게임
