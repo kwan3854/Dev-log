@@ -66,15 +66,14 @@
   - [액션 + 람다 함수](retr0_unity_C_sharp_high_5.md)
   - [제네릭](retr0_unity_C_sharp_high_6.md)
 - 레퍼런스: 유니티 애니메이션
-  - 애니메이션 클립
-  - 애니메이터 컨트롤러 + FSM
-  - 애니메이터 파라미터
-  - 트랜지션
-  - 블랜드 트리
-  - 루트 모션 + 아바타
-  - 애니메이터 레이어
-  - IK(Inverse Kinematic)
-  - 애니메이터 복습과 정리
+  - [애니메이션 클립](retr0_unity_animation_1.md)
+  - [애니메이터 컨트롤러 + FSM](retr0_unity_animation_2.md)
+  - [애니메이터 파라미터](retr0_unity_animation_3.md)
+  - [트랜지션](retr0_unity_animation_4.md)
+  - [블랜드 트리](retr0_unity_animation_5.md)
+  - [루트 모션 + 아바타](retr0_unity_animation_6.md)
+  - [애니메이터 레이어](retr0_unity_animation_7.md)
+  - [IK(Inverse Kinematic)](retr0_unity_animation_8.md)
 - 레퍼런스: UGUI
   - UGUI 개요
   - 캔버스
